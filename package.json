@@ -1,14 +1,19 @@
 {
-   "name":"APPNAME",
-   "description":"DESCRIPTIONHERE",
+   "name":"4search",
+   "description":"4chan search CLI tool and utility library",
    "version":"0.0.1",
-   "homepage":"http://github.com/wearefractal/APPNAME",
-   "repository":"git://github.com/wearefractal/APPNAME.git",
+   "homepage":"http://github.com/wearefractal/4search",
+   "repository":"git://github.com/wearefractal/4search.git",
    "author":"Fractal <contact@wearefractal.com> (http://wearefractal.com/)",
    "main":"./index.js",
-   
+   "bin":{
+      "4search": "./bin/4search.js"
+   },
    "dependencies":{
-      
+      "4chanjs":"*",
+      "optimist":"*",
+      "entities":"*",
+      "strip":"*"
    },
    "devDependencies":{
       "mocha":"*",
@@ -23,7 +28,7 @@
    "licenses":[
       {
          "type":"MIT",
-         "url":"http://github.com/wearefractal/APPNAME/raw/master/LICENSE"
+         "url":"http://github.com/wearefractal/4search/raw/master/LICENSE"
       }
    ]
 }

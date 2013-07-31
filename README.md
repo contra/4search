@@ -1,16 +1,14 @@
-[![Build Status](https://travis-ci.org/wearefractal/APPNAME.png?branch=master)](https://travis-ci.org/wearefractal/APPNAME)
-
-[![NPM version](https://badge.fury.io/js/APPNAME.png)](http://badge.fury.io/js/APPNAME)
+[![NPM version](https://badge.fury.io/js/4search.png)](http://badge.fury.io/js/4search)
 
 ## Information
 
 <table>
 <tr> 
-<td>Package</td><td>APPNAME</td>
+<td>Package</td><td>4search</td>
 </tr>
 <tr>
 <td>Description</td>
-<td>DESCRIPTIONHERE</td>
+<td>4chan search CLI tool and utility library</td>
 </tr>
 <tr>
 <td>Node Version</td>
@@ -18,15 +16,20 @@
 </tr>
 </table>
 
-## Usage
+## CLI Usage
+
+![Pic searching b](http://i.imgur.com/wMOdobj.png)
+
+## Library
 
 ```javascript
-EXAMPLEHERE
+var search = require('4search');
+
+var someregex = new Regex('(search-term)', 'ig');
+search('b', someregex, function(err, threads){
+	
+});
 ```
-
-## Examples
-
-You can view more examples in the [example folder.](https://github.com/wearefractal/APPNAME/tree/master/examples)
 
 ## LICENSE
 
