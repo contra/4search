@@ -18,6 +18,11 @@
 
 ## CLI Usage
 
+```
+sudo npm install 4search -g
+4search --board <board id> "search phrase"
+```
+
 ![Pic searching b](http://i.imgur.com/wMOdobj.png)
 
 ## Library
